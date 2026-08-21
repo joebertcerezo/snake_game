@@ -1,0 +1,16 @@
+[package]
+name = "snake_game"
+version = "0.0.1"
+edition = "2024"
+authors = ["Joebert Cerezo <joebertcerezo@gmail.com>"]
+repository = "https://github.com/joebertcerezo/snake_game"
+homepage = "https://github.com/joebertcerezo/snake_game"
+description = "A simple snake game implemented in Rust."
+
+[dependencies]
+crossterm = "0.29.0"
+rand = "0.10.2"
+
+[dev-dependencies]
+cargo-watch = "8.5.3"
+
