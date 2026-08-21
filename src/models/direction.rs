@@ -7,7 +7,7 @@ pub enum Direction {
 }
 
 impl Direction {
-    pub fn is_opposite(&self, other: &Direction) -> bool {
+    pub fn is_opposite(&self, other: Direction) -> bool {
         match (self, other) {
             (Direction::Up, Direction::Down) => true,
             (Direction::Down, Direction::Up) => true,
